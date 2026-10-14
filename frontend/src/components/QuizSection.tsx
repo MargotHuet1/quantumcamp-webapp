@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 interface Chapter {
   id: string;
@@ -27,7 +27,7 @@ export default function QuizSection({
   chapterId: string;
   userId: string;
 }) {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [quiz, setQuiz] = useState<Quiz | null>(null);
   const [loading, setLoading] = useState(true);

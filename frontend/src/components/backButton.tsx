@@ -1,12 +1,12 @@
 "use client";
 import { useRouter } from "next/navigation"; 
 import React from "react";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 // Should only be added to learning content.
 
 export default function BackButton() {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
   const router = useRouter();
 
   const handleBack = () => {

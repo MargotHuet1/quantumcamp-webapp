@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation"; 
 import UserCompletedChapters from "@/components/UserCompletedChapters";
 import Modal from "@/components/Modals";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 interface UserData {
   name: string;
@@ -13,7 +13,7 @@ interface UserData {
 }
 
 export default function Profile() {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
   const [userData, setUserData] = useState<UserData | null>(null);
   const [loading, setLoading] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);

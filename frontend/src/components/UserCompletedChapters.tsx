@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 interface CompletedChapter {
   chapter_id: string;
@@ -10,7 +10,7 @@ interface CompletedChapter {
 }
 
 const UserCompletedChapters: React.FC<{ userId: string }> = ({ userId }) => {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
   const [completedChapters, setCompletedChapters] = useState<CompletedChapter[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

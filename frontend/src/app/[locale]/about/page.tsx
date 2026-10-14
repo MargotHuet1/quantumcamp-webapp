@@ -1,17 +1,8 @@
 import React from "react";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation } from 'next-i18next';
-
-export async function getStaticProps({ locale }: { locale: string }) {
-    return {
-        props: {
-            ...(await serverSideTranslations(locale, ['common'])),
-        },
-    };
-}
+import { useTranslations } from 'next-intl';
 
 export default function About(): JSX.Element {
-    const { t } = useTranslation('common');
+    const t = useTranslations();
 
     return (
         <div className="bg-creamWhite flex flex-col items-center justify-start min-h-screen py-12 px-8 text-center">

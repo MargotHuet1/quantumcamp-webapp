@@ -11,7 +11,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 
   return (
     <>
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pt-16 lg:pt-20">
       {!noNavAndFooter && <Navbar />}
       {children}
       <CookieBanner />

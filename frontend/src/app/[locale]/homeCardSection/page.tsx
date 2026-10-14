@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import HomeCardsSection from "@/components/HomeCardsSection";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 const containerVariants = {
   hidden: {},
@@ -14,7 +14,7 @@ const containerVariants = {
 };
 
 export default function HomeCardFullSection() {
-    const { t } = useTranslation('common');
+    const t = useTranslations();
 
     return (
         <section className="bg-creamWhite pb-28">

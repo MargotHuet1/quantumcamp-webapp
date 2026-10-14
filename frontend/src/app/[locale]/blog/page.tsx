@@ -1,19 +1,10 @@
 import React from "react";
 import BlogCard from "@/components/blog/BlogCard";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation } from 'next-i18next';
-
-export async function getStaticProps({ locale }: { locale: string }) {
-    return {
-        props: {
-            ...(await serverSideTranslations(locale, ['common'])),
-        },
-    };
-}
+import { useTranslations } from 'next-intl';
 
 // Page Blog qui regroupe la liste des articles
 export default function Blog() {
-    const { t } = useTranslation('common');
+    const t = useTranslations();
 
     return(
         <>

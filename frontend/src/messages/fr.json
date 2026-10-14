@@ -1,0 +1,157 @@
+{
+  "navigation": {
+    "learn": "Apprendre",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "cgu": "CGU"
+  },
+  "homePage": {
+    "title": "Apprenez l'informatique quantique.",
+    "description": "Quantum Camp est The place où vous allez découvrir l'informatique quantique, que vous soyez ingénieur informatique ou simple curieux.",
+    "button": "C'est parti"
+  },
+  "homeCardsFullSection": {
+    "title": "Pourquoi vous devriez apprendre l'informatique quantique ?",
+    "description": "L'informatique quantique révolutionne le calcul et ouvre des opportunités technologiques uniques. 🚀"
+  },
+  "about": {
+    "title1": "À propos de QuantumCamp",
+    "text1": "Bienvenue sur QuantumCamp, votre plateforme francophone dédiée à l'apprentissage de l'informatique quantique ! 🌌 Chez QuantumCamp, nous croyons fermement que la computation quantique n'est pas réservée à une élite scientifique. Notre mission est de démystifier les concepts complexes de ce domaine fascinant et de les rendre accessibles à tous. Que vous soyez étudiant, professionnel curieux ou passionné par les nouvelles technologies, QuantumCamp est conçu pour vous accompagner dans cette découverte.",
+    "title2": "Notre Vision",
+    "text2": "L'informatique quantique représente un tournant majeur dans le monde technologique. Cependant, le manque de contenu pédagogique en français freine l'accès à ces connaissances pour une large audience. QuantumCamp vise à combler ce vide en offrant des ressources éducatives en français, accessibles et adaptées à un large public."
+  },
+  "cgu": {
+    "mainTitle": "Conditions Générales d'Utilisation (CGU)",
+    "title1": "1. Objet",
+    "content1": "Les présentes Conditions Générales d'Utilisation (ci-après \"CGU\") ont pour objet de définir les modalités et conditions dans lesquelles les utilisateurs (ci-après \"Utilisateurs\") peuvent accéder et utiliser le site/app QuantumCamp (ci-après \"le Service\").\n\nEn accédant ou en utilisant le Service, l'Utilisateur accepte sans réserve les présentes CGU.",
+    "title2": "2. Informations légales",
+    "content2": "Nom de la société : Quantumcamp, \nAdresse du siège social : Paris, \nContact : contact@quantumcamp.fr",
+    "title3": "3. Accès au Service",
+    "content3": "Le Service est accessible gratuitement à tout Utilisateur disposant d'un accès à Internet. L'Utilisateur est responsable de son équipement informatique, de ses logiciels et de son accès à Internet.\n\nCertaines fonctionnalités peuvent nécessiter une inscription ou une authentification. L'Utilisateur s'engage à fournir des informations exactes lors de son inscription.",
+    "title4": "4. Inscription et Compte Utilisateur",
+    "content4": "Pour accéder à certaines fonctionnalités, l'Utilisateur doit créer un compte personnel en fournissant des informations exactes et à jour.\n\nObligations de l'Utilisateur :\n- Ne pas partager ses identifiants avec un tiers.\n- Maintenir la confidentialité de ses informations de connexion.\n- Informer immédiatement Quantumcamp en cas de suspicion d'utilisation frauduleuse de son compte.\nQuantumcamp se réserve le droit de suspendre ou de supprimer un compte en cas de violation des CGU.",
+    "title5": "5. Propriété intellectuelle",
+    "content5": "Tous les contenus présents sur le Service (textes, images, logos, vidéos, etc.) sont protégés par les lois sur la propriété intellectuelle et sont la propriété exclusive de Quantumcamp ou de ses partenaires.\n\nL'Utilisateur s'engage à ne pas reproduire, modifier, distribuer ou exploiter ces contenus sans autorisation expresse.",
+    "title6": "6. Utilisation acceptable",
+    "content6": "L'Utilisateur s'engage à ne pas :\n\n- Utiliser le Service à des fins illégales ou frauduleuses.\n- Transmettre des contenus offensants, diffamatoires ou illicites.\n- Nuire au bon fonctionnement du Service, notamment par l'introduction de virus ou autres technologies malveillantes.",
+    "title7": "7. Données personnelles",
+    "content7": "Le traitement des données personnelles de l'Utilisateur est régi par notre politique de confidentialité. En utilisant Quantumcamp, l'Utilisateur consent au traitement de ses données conformément à cette politique.",
+    "title8": "8. Responsabilité",
+    "content8": "Quantumcamp s'efforce d'assurer le bon fonctionnement et la sécurité du Service. Toutefois, Quantumcamp ne saurait être tenu responsable en cas de :\n\n- Interruptions temporaires pour maintenance ou mise à jour.\n- Dommages directs ou indirects liés à l'utilisation ou à l'impossibilité d'utiliser le Service.",
+    "title9": "9. Modification des CGU",
+    "content9": "Quantumcamp se réserve le droit de modifier les présentes CGU à tout moment. Les modifications seront publiées sur cette page et entreront en vigueur dès leur publication.\n\nL'Utilisateur est invité à consulter régulièrement les CGU. En continuant à utiliser le Service, l'Utilisateur accepte les modifications.",
+    "title10": "10. Loi applicable et juridiction compétente",
+    "content10": "Les présentes CGU sont régies par la loi française. En cas de litige, les tribunaux compétents sont ceux du ressort de l'Ile-de-France.",
+    "title11": "11. Contact",
+    "content11": "Pour toute question ou réclamation relative aux présentes CGU, l'Utilisateur peut contacter :\n\n- Email : contact@quantumcamp.fr",
+    "last_maj": "Dernière mise à jour le 29/11/2024"
+  },
+  "privacyPolicy": {
+    "mainTitle": "Politique de Confidentialité des Données Personnelles",
+    "introduction": "Chez QuantumCamp, nous attachons une grande importance à la protection des données personnelles de nos utilisateurs. Cette Politique de Confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles conformément aux lois applicables, notamment le Règlement Général sur la Protection des Données (RGPD). En utilisant nos services, vous acceptez les termes de cette Politique de Confidentialité.",
+    "title1": "1. Responsable du traitement",
+    "content1": "Le responsable du traitement des données personnelles est :\n- Nom de l'entreprise : QuantumCamp\n- Adresse : Paris\n- Email : contact@quantumcamp.com\n-",
+    "title2": "2. Données collectées",
+    "content2": "Nous collectons uniquement les données nécessaires pour fournir et améliorer nos services. Les types de données collectées incluent : Prénom, Adresse e-mail, Informations de connexion (identifiant et mot de passe), Toute autre information fournie volontairement via nos formulaires ou communications.",
+    "title3": "3. Finalités du traitement des données",
+    "content3": "Création et gestion de compte utilisateur, personnalisation de votre expérience sur notre plateforme, envoi de communications liées à nos services, comme des mises à jour ou des notifications, amélioration de nos services via des analyses statistiques, respect des obligations légales.",
+    "title4": "4. Base légale du traitement",
+    "content4": "Consentement : Lorsque vous avez accepté explicitement le traitement (ex. : inscription à une newsletter), exécution d'un contrat : Lorsque le traitement est nécessaire pour vous fournir un service, obligation légale : Lorsque la loi nous impose de conserver certaines données, intérêt légitime : Pour améliorer nos services et assurer leur sécurité.",
+    "title5": "5. Partage des données",
+    "content5": "Vos données personnelles ne sont jamais vendues. Toutefois, elles peuvent être partagées avec les tiers suivants, uniquement dans les cas nécessaires :\n\n- Fournisseurs de services : Prestataires techniques (hébergement, e-mails, paiements).\n- Autorités légales : Si requis par la loi ou en cas de demande judiciaire.\n\nTous nos partenaires s'engagent à respecter des normes strictes de confidentialité.",
+    "title6": "6. Conservation des données",
+    "content6": "Vos données sont conservées uniquement le temps nécessaire aux finalités décrites dans cette Politique. Les durées de conservation peuvent varier :\n\n- Données de compte : Jusqu'à la suppression du compte utilisateur.\n- Données de navigation : 12 mois maximum.\n- Données liées à des obligations légales : Durées imposées par la législation.",
+    "title7": "7. Sécurité des données",
+    "content7": "Nous mettons en place des mesures techniques et organisationnelles adaptées pour protéger vos données contre l'accès non autorisé, la perte ou l'altération :\n\n- Utilisation de protocoles sécurisés (HTTPS).\n- Cryptage des mots de passe.\n- Contrôles réguliers de sécurité.\n\nToutefois, aucun système n'est totalement invulnérable, et nous ne pouvons garantir une sécurité absolue.",
+    "title8": "8. Vos droits",
+    "content8": "Conformément au RGPD, vous disposez des droits suivants :Droit d'accès : Obtenir une copie des données personnelles vous concernant. Droit de rectification : Corriger des informations inexactes ou incomplètes. Droit à l'effacement : Demander la suppression de vos données personnelles. Droit à la limitation : Restreindre le traitement de vos données dans certains cas. Droit à la portabilité : Recevoir vos données dans un format structuré et lisible. Droit d'opposition : Refuser le traitement de vos données pour des motifs légitimes. Droit de retirer votre consentement : À tout moment, pour les traitements basés sur votre consentement.",
+    "title9": "9. Cookies",
+    "content9": "Notre site utilise des cookies pour améliorer votre expérience. Les cookies peuvent être utilisés pour :\n\n- Stocker vos préférences utilisateur.\n- Suivre votre navigation à des fins d'analyse.\n\nVous pouvez gérer vos préférences en matière de cookies dans les paramètres de votre navigateur.",
+    "title10": "10. Modifications de la Politique de Confidentialité",
+    "content10": "Cette Politique de Confidentialité peut être mise à jour pour refléter les changements dans nos pratiques ou la réglementation. Nous vous informerons de toute modification importante par e-mail ou via notre site.\n\nDate de dernière mise à jour : 29/11/2024",
+    "title11": "11. Contact",
+    "content11": "Pour toute question ou réclamation concernant cette Politique de Confidentialité, vous pouvez nous contacter :\n\n- Par e-mail : contact@quantumcamp.com\n-"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back !",
+    "signIn": "Connectez-vous",
+    "signUp": "Inscription",
+    "createAccount": "Créez votre compte",
+    "noAccount": "Vous n'avez pas de compte?",
+    "haveAccount": "Vous avez déjà un compte?",
+    "firstName": "Prénom",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmez votre mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "termsAccept": "En vous inscrivant, vous acceptez les",
+    "termsOfUse": "conditions générales d'utilisation"
+  },
+  "profile": {
+    "name": "Nom",
+    "email": "Email",
+    "changePassword": "Modifier le mot de passe",
+    "deleteAccount": "Supprimer votre compte",
+    "completedChapters": "Chapitres complétés:",
+    "noCompletedChapters": "Aucun chapitre complété:",
+    "startNow": "🚀 Commencez maintenant 🚀",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible et vos données seront perdues.",
+    "confirm": "Confirmer",
+    "cancel": "Annuler"
+  },
+  "learn": {
+    "summary": "Sommaire",
+    "loading": "Loading...",
+    "noCourses": "No courses available.",
+    "mustBeLoggedIn": "You must be logged in to view this page.",
+    "welcome": "Bienvenue sur",
+    "connectOrSignup": "Connectez-vous ou créez un compte pour accéder à la plateforme.",
+    "signUp": "S'inscrire",
+    "signIn": "Se connecter",
+    "or": "ou"
+  },
+  "quiz": {
+    "loading": "Chargement...",
+    "noQuiz": "Aucun quiz disponible pour ce chapitre.",
+    "correctAnswer": "Bonne réponse ! 🎉",
+    "wrongAnswer": "Mauvaise réponse. 😢",
+    "next": "Suivant",
+    "allChaptersCompleted": "Vous avez terminé tous les chapitres !"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez une question? Faites-le nous savoir.",
+    "email": "Email",
+    "subject": "Objet",
+    "subjectPlaceholder": "Dites-nous tout",
+    "message": "Message",
+    "messagePlaceholder": "Ecrivez-votre question...",
+    "send": "Envoyer"
+  },
+  "blog": {
+    "title": "Blog",
+    "readArticle": "Lire l'article →",
+    "loading": "Chargement des articles...",
+    "noArticles": "Aucun article trouvé."
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Choisissez la formule qui répond à vos besoins.",
+    "free": "Gratuit",
+    "freeDescription": "Apprenez gratuitement",
+    "freeAccess": "Accès gratuit",
+    "getStarted": "Get Started"
+  },
+  "common": {
+    "back": "← Retour",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès"
+  }
+}

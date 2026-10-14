@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 export default function AuthForm() {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
 
   return (
     <div className="flex items-center justify-center min-h-[60vh] px-4 py-8 md:px-10 md:py-12">

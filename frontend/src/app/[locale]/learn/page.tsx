@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import AuthForm from "@/components/authentication/AuthForm";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 interface Course {
   id: string;
@@ -12,7 +12,7 @@ interface Course {
 }
 
 export default function Learn() {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
   const [courses, setCourses] = useState<Course[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState<{ id: string; } | null>(null);

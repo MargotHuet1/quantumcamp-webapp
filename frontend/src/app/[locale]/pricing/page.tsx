@@ -1,18 +1,9 @@
 import React from "react";
 import PricingCard from "@/components/pricingCard";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation } from 'next-i18next';
-
-export async function getStaticProps({ locale }: { locale: string }) {
-    return {
-        props: {
-            ...(await serverSideTranslations(locale, ['common'])),
-        },
-    };
-}
+import { useTranslations } from 'next-intl';
 
 export default function Pricing() {
-    const { t } = useTranslation('common');
+    const t = useTranslations();
 
     return (
         <div className="flex flex-col items-center bg-creamWhite px-4 py-8 sm:py-12 min-h-screen">

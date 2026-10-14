@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Modal from "@/components/Modals";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 interface FormData {
     name: string;
@@ -14,7 +14,7 @@ interface FormData {
 }
 
 export default function Signup() {
-    const { t } = useTranslation('common');
+    const t = useTranslations();
     const router = useRouter();
     const [formData, setFormData] = useState<FormData>({
         name: '',

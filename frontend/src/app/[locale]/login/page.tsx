@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Modal from "@/components/Modals";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 interface LoginData {
     email: string;
@@ -12,7 +12,7 @@ interface LoginData {
 }
 
 export default function Login() {
-    const { t } = useTranslation('common');
+    const t = useTranslations();
     const router = useRouter();
     const [message, setMessage] = useState("");
     const [error, setError] = useState("");

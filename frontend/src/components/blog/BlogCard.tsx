@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 
 // Composant de prévisualisation d'un article de blog. 
 
@@ -14,7 +14,7 @@ interface BlogArticle {
 }
 
 export default function BlogList() {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
   const [articles, setArticles] = useState<BlogArticle[]>([]);
   const [loading, setLoading] = useState(true);
 
